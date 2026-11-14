@@ -1,5 +1,6 @@
 import * as maplibregl from 'maplibre-gl';
 import type * as GeoJSON from 'geojson';
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 
@@ -8,6 +9,7 @@ type Footprint = {type:'Feature'; geometry:GeoJSON.Geometry; properties:{city:st
 type Catalog = {type:'FeatureCollection'; features:Footprint[]};
 const root = document.querySelector<HTMLDivElement>('#app')!;
 const base = import.meta.env.BASE_URL;
+maplibregl.setWorkerUrl(workerUrl);
 const sources = [
   ['NISAR L2 GUNW · ASF DAAC','https://nisar-docs.asf.alaska.edu/gunw/','Used: real granule metadata, acquisition dates and geographic footprints. No phase arrays processed yet.'],
   ['NASA / IPCC AR6 projections','https://sealevel.nasa.gov/data_tools/17/','Planned: coastal sea-level scenarios. No projection values are loaded.'],
