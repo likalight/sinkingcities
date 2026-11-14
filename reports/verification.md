@@ -7,5 +7,7 @@
 - `export_catalog.py`: 157 real catalog footprint records; initial exported data size 137,208 bytes. The 25 MB cap is enforced.
 - Seven pytest checks pass (catalog logic plus synthetic HDF5 inspection). Test fixtures are not scientific observations.
 - TypeScript and production Vite build pass. MapLibre produces a bundle-size advisory; the initial compressed JavaScript is approximately 295 kB.
-- The in-app browser could not reach the local preview server. Browser checks of the deployed app remain pending; local build success is not a substitute for visual QA.
-- Public deployment: pending.
+- The in-app browser could not reach the local preview server. The public deployment was subsequently tested in the browser: city selection, data/limitations dialog, story navigation and footprint click all worked.
+- Browser QA found two issues: the initial CARTO tiles required an API key, and MapLibre 6 required an explicitly bundled worker. Fixed with OpenStreetMap standard tiles and a Vite worker asset; rechecked actual map rendering and a real Semarang product's source details.
+- Public deployment succeeded for commit `fe2b6a1` at the initially selected account, likalight1. The participant corrected the owner to likalight. A transfer was requested on 14 November and is awaiting acceptance by the receiving personal account. Verify the new Pages URL after transfer; do not assume old Pages URLs redirect.
+- The seven-test run initially encountered the sandbox's inaccessible temporary directory. Rerunning with an explicit workspace-local pytest base directory passed all seven tests.
