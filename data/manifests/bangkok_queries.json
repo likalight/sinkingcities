@@ -1,0 +1,29 @@
+{
+  "queried_at": "2026-11-14T04:42:28.787766+00:00",
+  "queries": [
+    {
+      "parameters": {
+        "dataset": "NISAR",
+        "processingLevel": "GUNW",
+        "dataMaturity": "PROVISIONAL",
+        "intersectsWith": "POLYGON ((100.9 13.45, 100.9 14, 100.3 14, 100.3 13.45, 100.9 13.45))",
+        "start": "2026-06-17T00:00:00Z",
+        "end": "2026-11-14T04:38:00Z"
+      },
+      "count": 47,
+      "status": "complete"
+    },
+    {
+      "parameters": {
+        "dataset": "NISAR",
+        "processingLevel": "GUNW",
+        "dataMaturity": "VALIDATED",
+        "intersectsWith": "POLYGON ((100.9 13.45, 100.9 14, 100.3 14, 100.3 13.45, 100.9 13.45))",
+        "start": "2026-06-17T00:00:00Z",
+        "end": "2026-11-14T04:38:00Z"
+      },
+      "count": 0,
+      "status": "complete"
+    }
+  ]
+}

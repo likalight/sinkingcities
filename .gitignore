@@ -1,0 +1,16 @@
+data/raw/
+data/interim/
+.netrc
+_netrc
+*.h5
+*.hdf5
+*.part
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+.pytest_cache/
+.venv/
+dist/
+*.log

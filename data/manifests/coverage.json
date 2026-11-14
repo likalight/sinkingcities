@@ -1,0 +1,124 @@
+[
+  {
+    "city": "jakarta",
+    "name": "North Jakarta",
+    "bbox": [
+      106.65,
+      -6.25,
+      107.05,
+      -5.9
+    ],
+    "queried_at": "2026-11-14T04:42:28.630156+00:00",
+    "catalog_count": 32,
+    "search_complete": true,
+    "chain_pairs": 1,
+    "selected_group": [
+      "PROVISIONAL",
+      10,
+      174,
+      "ASCENDING",
+      "HH",
+      "40",
+      "P05023"
+    ],
+    "start": "2026-06-26",
+    "end": "2026-07-08",
+    "measurement_status": "not_processed"
+  },
+  {
+    "city": "semarang",
+    "name": "Semarang",
+    "bbox": [
+      110.25,
+      -7.1,
+      110.55,
+      -6.85
+    ],
+    "queried_at": "2026-11-14T04:42:28.233411+00:00",
+    "catalog_count": 18,
+    "search_complete": true,
+    "chain_pairs": 5,
+    "selected_group": [
+      "PROVISIONAL",
+      162,
+      92,
+      "DESCENDING",
+      "HH",
+      "40",
+      "P05023"
+    ],
+    "start": "2026-08-12",
+    "end": "2026-10-11",
+    "measurement_status": "not_processed"
+  },
+  {
+    "city": "bangkok",
+    "name": "Bangkok",
+    "bbox": [
+      100.3,
+      13.45,
+      100.9,
+      14.0
+    ],
+    "queried_at": "2026-11-14T04:42:28.787766+00:00",
+    "catalog_count": 47,
+    "search_complete": true,
+    "chain_pairs": 0,
+    "selected_group": null,
+    "start": null,
+    "end": null,
+    "measurement_status": "not_processed"
+  },
+  {
+    "city": "manila",
+    "name": "Manila",
+    "bbox": [
+      120.8,
+      14.3,
+      121.2,
+      14.85
+    ],
+    "queried_at": "2026-11-14T04:42:28.659844+00:00",
+    "catalog_count": 43,
+    "search_complete": true,
+    "chain_pairs": 5,
+    "selected_group": [
+      "PROVISIONAL",
+      32,
+      81,
+      "DESCENDING",
+      "HH",
+      "40",
+      "P05023"
+    ],
+    "start": "2026-08-15",
+    "end": "2026-10-14",
+    "measurement_status": "not_processed"
+  },
+  {
+    "city": "ho_chi_minh_city",
+    "name": "Ho Chi Minh City",
+    "bbox": [
+      106.5,
+      10.3,
+      107.0,
+      11.0
+    ],
+    "queried_at": "2026-11-14T04:42:28.644677+00:00",
+    "catalog_count": 17,
+    "search_complete": true,
+    "chain_pairs": 5,
+    "selected_group": [
+      "PROVISIONAL",
+      47,
+      83,
+      "DESCENDING",
+      "HH",
+      "40",
+      "P05023"
+    ],
+    "start": "2026-08-16",
+    "end": "2026-10-15",
+    "measurement_status": "not_processed"
+  }
+]
