@@ -4,7 +4,7 @@
 
 NASA Space Apps Challenge 2026 · Singapore · [Dancing with the SARs](https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/)
 
-[Public source repository](https://github.com/likalight1/sinkingcities) · [Interactive prototype](https://likalight1.github.io/sinkingcities/)
+[Public source repository](https://github.com/likalight/sinkingcities) · [Interactive prototype](https://likalight.github.io/sinkingcities/)
 
 ## Current status: coverage prototype, not measured subsidence
 

@@ -38,7 +38,7 @@ No validated velocity or coherence result yet; no GNSS data; short continuous se
 
 Team name: TODO — participant input required.
 Member names: TODO — participant input required.
-Public source: https://github.com/likalight1/sinkingcities
-Interactive prototype: https://likalight1.github.io/sinkingcities/
+Public source: https://github.com/likalight/sinkingcities
+Interactive prototype: https://likalight.github.io/sinkingcities/
 Demo link: TODO — the outline and script still require a rendered deck or recorded video.
 The project has not been submitted for judging.
