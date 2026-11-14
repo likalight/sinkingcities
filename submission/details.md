@@ -24,7 +24,7 @@ Inspect actual GUNW arrays; mask low coherence and incompatible connected compon
 
 ## Tools and complementary sources
 
-Python 3.11, asf_search, earthaccess, h5py, NumPy, PyYAML, Shapely, Requests, pytest, TypeScript, Vite and MapLibre GL JS. OpenStreetMap and CARTO provide contextual basemap tiles. Google Fonts provides DM Sans and Manrope. These are complements, not NASA datasets. [Jakarta historical research](https://piahs.copernicus.org/articles/372/115/2015/) supplies motivation, not current measurements.
+Python 3.11, asf_search, earthaccess, h5py, NumPy, PyYAML, Shapely, Requests, pytest, TypeScript, Vite and MapLibre GL JS. OpenStreetMap provide contextual basemap tiles. Google Fonts provides DM Sans and Manrope. These are complements, not NASA datasets. [Jakarta historical research](https://piahs.copernicus.org/articles/372/115/2015/) supplies motivation, not current measurements.
 
 ## AI assistance disclosure
 
@@ -38,5 +38,7 @@ No validated velocity or coherence result yet; no GNSS data; short continuous se
 
 Team name: TODO — participant input required.
 Member names: TODO — participant input required.
-Public project and demo links: TODO — verify deployment before submission.
+Public source: https://github.com/likalight1/sinkingcities
+Interactive prototype: https://likalight1.github.io/sinkingcities/
+Demo link: TODO — the outline and script still require a rendered deck or recorded video.
 The project has not been submitted for judging.

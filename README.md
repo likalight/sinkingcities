@@ -4,6 +4,8 @@
 
 NASA Space Apps Challenge 2026 · Singapore · [Dancing with the SARs](https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/)
 
+[Public source repository](https://github.com/likalight1/sinkingcities) · [Interactive prototype](https://likalight1.github.io/sinkingcities/)
+
 ## Current status: coverage prototype, not measured subsidence
 
 The app visualizes real NASA–ISRO NISAR catalog footprints and acquisition dates for five coastal cities. It does **not yet measure surface displacement**. Downloading and inspecting authenticated GUNW arrays is the next gate. No velocity, coherence, uncertainty, population exposure or 2050 sea-level values have been fabricated.
@@ -37,7 +39,7 @@ NISAR offers repeat radar observations through clouds. Its long L-band wavelengt
 | [NASA/IPCC AR6 Sea Level Projection Tool](https://sealevel.nasa.gov/data_tools/17/) | Method planning only | Coastal SSP2-4.5 and SSP5-8.5 scenarios |
 | [NASADEM HGT v001](https://www.earthdata.nasa.gov/data/catalog/lpcloud-nasadem-hgt-001) | Not downloaded | Elevation context after vertical-datum checks |
 
-OpenStreetMap/CARTO provide a non-NASA basemap. Do not claim the planned NASA products were already incorporated. A completed surface-change analysis is still required to demonstrate the central challenge objective.
+OpenStreetMap provide a non-NASA basemap. Do not claim the planned NASA products were already incorporated. A completed surface-change analysis is still required to demonstrate the central challenge objective.
 
 ## Run locally
 
@@ -73,7 +75,7 @@ The web app has working catalog map, city selector, layer toggles, source-record
 
 ## Verification
 
-Six catalog tests pass: acquisition-date parsing, malformed names, gap handling, 12-day filtering, duplicate removal and partial-footprint exclusion. TypeScript checking and the Vite production build pass. Web data export contains 157 actual catalog footprint records and initially totals 137,208 bytes. Browser verification and public URL status are recorded in `reports/verification.md`.
+Seven tests pass: acquisition-date parsing, malformed names, gap handling, 12-day filtering, duplicate removal, partial-footprint exclusion, and synthetic HDF5 metadata inspection. TypeScript checking and the Vite production build pass. Web data export contains 157 actual catalog footprint records and initially totals 137,208 bytes. Browser verification and public URL status are recorded in `reports/verification.md`.
 
 ## Attribution and AI assistance
 
